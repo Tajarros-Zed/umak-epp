@@ -49,6 +49,7 @@ $(document).ready(function() {
                                         // Clear localStorage
                                         localStorage.clear();
                                         //redirect to signin page
+                                        alert('Signup successful');
                                         window.location.href = '../views/signin.php';
                                     } else {
                                         alert('Signup failed: Email already exists');
