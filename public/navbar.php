@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <nav class="bg-[#111C4E] text-[#f5f5f5]">
+    <nav class="fixed top-0 left-0 w-full bg-[#111C4E] text-[#f5f5f5]">
         <div class="container mx-auto px-4">
             <div class="flex justify-between items-center h-16">
                 <div class="flex-shrink-0">
-                    <img src="../assets/umak-logo.png" alt="UMAK Logo" class="h-10">
+                    <img src="assets/umak-logo.png" alt="UMAK Logo" class="h-10">
                 </div>
 
                 <div class="hidden md:flex space-x-16 items-center justify-center">
