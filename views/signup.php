@@ -88,7 +88,7 @@ session_start();
                 </form>
                 
                 <div class="mt-4 flex justify-end items-end px-4">
-                    <a href="#" class="font-medium text-sm text-[#1e1e1e] hover:text-[#111C4E]">Sign in instead</a>
+                    <a href="signin.php" class="font-medium text-sm text-[#1e1e1e] hover:text-[#111C4E]">Sign in instead</a>
                 </div>
             </div>
         </div>

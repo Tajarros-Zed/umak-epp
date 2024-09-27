@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/umak-epp.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../public/scripts/signin.js"></script>
 </head>
 <body class="bg-[#F5F5F5] min-h-screen">
     <div class="flex h-screen">
@@ -18,7 +20,7 @@
                 </div>
                 <h1 class="text-2xl font-bold text-center mb-6 font-marcellus">UMAK - EPP</h1>
                 
-                <form class="space-y-4 p-4">
+                <div class="space-y-4 p-4">
                     <div>
                         <label for="email" class="block text-[#1e1e1e] font-medium">Email</label>
                         <div class="mt-1 relative">
@@ -53,10 +55,10 @@
                     </div>
                     
                     <div class="mt-4 text-center flex justify-evenly items-center gap-8">
-                      <button type="submit" class="w-1/2 bg-[#111C4E] text-[#f5f5f5] rounded-md font-semibold text-lg py-3 px-4">SIGN UP</button>
-                      <button type="submit" class="w-1/2 bg-[#111C4E] text-[#FFC700] rounded-md font-semibold text-lg py-3 px-4">SIGN IN</button>
+                      <button id="signupBtn" class="w-1/2 bg-[#111C4E] text-[#f5f5f5] rounded-md font-semibold text-lg py-3 px-4">SIGN UP</button>
+                      <button id="signinBtn" class="w-1/2 bg-[#111C4E] text-[#FFC700] rounded-md font-semibold text-lg py-3 px-4">SIGN IN</button>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
         
