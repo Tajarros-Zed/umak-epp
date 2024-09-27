@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +11,8 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/umak-epp.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../public/scripts/signup.js"></script>
 </head>
 <body class="bg-[#F5F5F5] min-h-screen">
     <div class="flex h-screen">
@@ -50,7 +54,7 @@
                             <span class="absolute left-3 top-1/2 -translate-y-1/2">
                                 <i class="fa-solid fa-envelope text-[#FFC700]"></i>
                             </span>
-                            <input type="email" id="email" name="email" placeholder="Enter UMAK Email" class="mt-1 block w-full pl-10 pr-3 py-2 text-[#f5f5f5] rounded-md bg-[#1e1e1e] shadow-sm">
+                            <input type="text" id="email" name="email" placeholder="Enter UMAK Email" class="mt-1 block w-full pl-10 pr-3 py-2 text-[#f5f5f5] rounded-md bg-[#1e1e1e] shadow-sm">
                         </div>
                     </div>
                     
@@ -62,7 +66,7 @@
                             </span>
                             <input type="password" id="password" name="password" placeholder="Enter Password" class="mt-1 block w-full pl-10 pr-10 text-[#f5f5f5] py-2 rounded-md bg-[#1e1e1e] shadow-sm">
                             <span class="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer">
-                                <i class="fa-solid fa-eye text-[#f5f5f5] opacity-50"></i>
+                                <i class="fa-solid fa-eye text-[#f5f5f5] opacity-50" id="togglePassword"></i>
                             </span>
                         </div>
                     </div>
@@ -75,12 +79,12 @@
                             </span>
                             <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Enter Password" class="mt-1 mb-4 pl-10 pr-10 text-[#f5f5f5] py-2 block w-full rounded-md bg-[#1e1e1e] shadow-sm">
                             <span class="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer">
-                                <i class="fa-solid fa-eye text-[#f5f5f5] opacity-50"></i>
+                                <i class="fa-solid fa-eye text-[#f5f5f5] opacity-50" id="toggleConfirmPassword"></i>
                             </span>
                         </div>
                     </div>
                     
-                    <button type="submit" class="w-full bg-[#111C4E] text-[#FFC700] rounded-md font-semibold text-lg py-3 px-4">SIGN UP</button>
+                    <button type="submit" id="signupBtn" class="w-full bg-[#111C4E] text-[#FFC700] rounded-md font-semibold text-lg py-3 px-4">SIGN UP</button>
                 </form>
                 
                 <div class="mt-4 flex justify-end items-end px-4">
@@ -101,7 +105,7 @@
         </div>
     </div>
 
-    <script>
+    <!-- <script>
         document.getElementById('signupForm').addEventListener('submit', function(e) {
             e.preventDefault();
             const modal = document.getElementById('verificationModal');
@@ -120,6 +124,6 @@
             alert('Verification code submitted!');
             document.getElementById('verificationModal').classList.add('hidden');
         });
-    </script>
+    </script> -->
 </body>
 </html>
