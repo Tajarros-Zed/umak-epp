@@ -23,7 +23,7 @@
                         <label for="email" class="block text-[#1e1e1e] font-medium">Email</label>
                         <div class="mt-1 relative">
                             <span class="absolute left-3 top-1/2 -translate-y-1/2">
-                                <i class="fa-solid fa-envelope text-[#EDE324]"></i>
+                                <i class="fa-solid fa-envelope text-[#FFC700]"></i>
                             </span>
                             <input type="email" id="email" name="email" placeholder="Enter UMAK Email" class="mt-1 block w-full pl-10 pr-3 py-2 text-[#f5f5f5] rounded-md bg-[#1e1e1e] shadow-sm">
                         </div>
@@ -33,7 +33,7 @@
                         <label for="password" class="block text-[#1e1e1e] font-medium">Password</label>
                         <div class="mt-1 relative">
                             <span class="absolute left-3 top-1/2 -translate-y-1/2">
-                                <i class="fa-solid fa-lock text-[#EDE324]"></i>
+                                <i class="fa-solid fa-lock text-[#FFC700]"></i>
                             </span>
                             <input type="password" id="password" name="password" placeholder="Enter Password" class="mt-1 block w-full pl-10 pr-10 text-[#f5f5f5] py-2 rounded-md bg-[#1e1e1e] shadow-sm">
                             <span class="absolute right-3 top-1/2 -translate-y-1/2 cursor-pointer">
@@ -54,7 +54,7 @@
                     
                     <div class="mt-4 text-center flex justify-evenly items-center gap-8">
                       <button type="submit" class="w-1/2 bg-[#111C4E] text-[#f5f5f5] rounded-md font-semibold text-lg py-3 px-4">SIGN UP</button>
-                      <button type="submit" class="w-1/2 bg-[#111C4E] text-[#EDE324] rounded-md font-semibold text-lg py-3 px-4">SIGN IN</button>
+                      <button type="submit" class="w-1/2 bg-[#111C4E] text-[#FFC700] rounded-md font-semibold text-lg py-3 px-4">SIGN IN</button>
                     </div>
                 </form>
             </div>
